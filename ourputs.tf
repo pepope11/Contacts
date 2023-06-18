@@ -3,6 +3,6 @@ output "webapp_url" {
 }
 
 output "webapp_ips" {
-	value = azurerm_linux_web_app.appservice.outband_ip_addresses
+	value = azurerm_linux_web_app.appservice.outbound_ip_addresses
 }
 
