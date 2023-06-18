@@ -1,11 +1,10 @@
-resource_group_name     = "rg"
+resource_group_name     = "pepoContacts"
 resource_group_location = "West Europe"
-app_service_plan_name   = "task-board-plan"
-app_service_name        = "task-board"
-sql_server_name         = "task-board-sql"
-sql_database_name       = "TaskBoardDB"
+app_service_plan_name   = "pepo-Contacts-plan"
+app_service_name        = "pepo-Contacts"
+sql_server_name         = "pepo-Contacts-sql"
+sql_database_name       = "ContactsDB"
 sql_admin_login         = "4dm1n157r470r"
 sql_admin_password      = "4-v3ry-53cr37-p455w0rd"
-firewall_rule_name      = "TaskBoardFirewallRule"
-repo_URL                = "https://github.com/pepope11/ContZ
-έσ_
+firewall_rule_name      = "pepoContactsFW"
+repo_URL                = "https://github.com/pepope11/Contacts"
